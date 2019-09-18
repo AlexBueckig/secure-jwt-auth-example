@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "name": "secure-jwt-auth-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "concurrently \"yarn --cwd packages/server dev\" \"yarn --cwd packages/client start\""
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.2"
+  }
+}

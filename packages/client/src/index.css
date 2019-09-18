@@ -1,0 +1,112 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.header {
+  background: lightskyblue;
+  padding: 1em 2em;
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  margin-left: auto;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+}
+
+.nav-item {
+  margin-left: 2em;
+}
+
+.nav-link,
+.logo-link {
+  text-transform: uppercase;
+  font-weight: 700;
+  text-decoration: none;
+  color: white;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.logo-link {
+  font-size: 1.25rem;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  border-bottom: 2px solid white;
+}
+
+.container {
+  padding: 2em;
+  margin: 1em auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  max-width: max-content;
+  background: rgb(207, 243, 255);
+  border-radius: 5px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input,
+.button {
+  margin: 1em;
+  border: 0;
+  border-radius: 5px;
+}
+
+.input {
+  padding: 0.75em;
+  border: 0;
+  margin-bottom: 0;
+  margin-top: 0.5em;
+}
+
+.label {
+  margin-top: 1.25em;
+  letter-spacing: 1px;
+}
+
+.button {
+  margin-top: 1.5em;
+  padding: 0.75em 1.75em;
+  cursor: pointer;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background: #a3bccc;
+  color: white;
+  letter-spacing: 2px;
+  transition: background 150ms ease-in;
+}
+
+.button:hover,
+.button:focus {
+  background: #406780;
+}
+
+.error {
+  color: red;
+  font-size: 0.75rem;
+}
