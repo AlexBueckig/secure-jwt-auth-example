@@ -14,6 +14,13 @@ h3 {
   letter-spacing: 1px;
 }
 
+.layout-container {
+  min-width: 400px;
+  max-width: 50%;
+  margin: 2em auto;
+  line-height: 1.7;
+}
+
 .header {
   background: lightskyblue;
   padding: 1em 2em;
@@ -59,7 +66,7 @@ h3 {
   margin: 1em auto;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   max-width: max-content;
-  background: rgb(207, 243, 255);
+  background: #d3ebfb;
   border-radius: 5px;
 }
 
