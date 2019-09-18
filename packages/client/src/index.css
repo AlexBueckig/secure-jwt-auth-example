@@ -22,7 +22,7 @@ h3 {
 }
 
 .header {
-  background: lightskyblue;
+  background-image: linear-gradient(-34deg, #2e4052 0%, #166b80 100%);
   padding: 1em 2em;
   display: flex;
   align-items: center;
@@ -66,7 +66,7 @@ h3 {
   margin: 1em auto;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   max-width: max-content;
-  background: #d3ebfb;
+  background-image: linear-gradient(-34deg, #90c4f8 0%, #9ce0f1 100%);
   border-radius: 5px;
 }
 
@@ -102,7 +102,7 @@ h3 {
   cursor: pointer;
   font-size: 1rem;
   text-transform: uppercase;
-  background: #a3bccc;
+  background: #406780;
   color: white;
   letter-spacing: 2px;
   transition: background 150ms ease-in;
@@ -110,7 +110,7 @@ h3 {
 
 .button:hover,
 .button:focus {
-  background: #406780;
+  background: #125d8b;
 }
 
 .error {
